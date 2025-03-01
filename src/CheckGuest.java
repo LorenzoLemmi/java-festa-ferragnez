@@ -9,7 +9,7 @@ public class CheckGuest{
             if (guests[i].equals(name)) {
                 System.out.println("Benvenuto " + name + "!");
             } else {
-                System.out.println("Mi dispiace, " + name + " non puoi entrare.");
+                System.out.println("Mi dispiace " + name + ", non puoi entrare.");
             }
         }
     }
